@@ -9,7 +9,7 @@ Setup instructions
   * Default version: Specify a Git reference (branch or commit SHA), e.g. master
   * Retrieval method: Modern SCM
   * Select the Git type
-  * Project repository: https://github.com/hdshiva/jenkins-shiva-shared-lib.git
+  * Project repository: https://github.com/hdshiva/shiva-shared-lib.git
   * Credentials: (leave blank)
   * You may have to turn off ssl verification using:     git.exe config --global http.sslVerify false
 
