@@ -1,3 +1,5 @@
+package org.opower
+
 class qaframeworkUtil implements Serializable {
 
 def scriptEnv
