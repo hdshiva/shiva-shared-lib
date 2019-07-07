@@ -5,7 +5,8 @@ class qaframeworkUtil implements Serializable {
 def scriptEnv
 
 qaframeworkUtil() {}
-qaframeworkUtil{
+
+qaframeworkUtil(p_scriptEnv) {
   this.scriptEnv = p_scriptEnv
 }
 
