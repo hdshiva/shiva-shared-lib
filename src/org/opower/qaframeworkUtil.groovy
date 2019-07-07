@@ -11,20 +11,18 @@ qaframeworkUtil(p_scriptEnv) {
 }
 
 def qaframeworkexec(String appType, String testgitPath, String testBranch, String environment, String notificationGroup){
-//def scmUtilObj = new scmUtil(scriptEnv)
-//def notificationUtilObj = new notificationUtil(scriptEnv)
+  //def scmUtilObj = new scmUtil(scriptEnv)
+  //def notificationUtilObj = new notificationUtil(scriptEnv)
 
-try {
-  scriptEnv.println("QA Testing execution Starting....")
-  scriptEnv.println("Environment is ${environment}....")
-  scriptEnv.println("AppType is ${appType}....")
-  scriptEnv.println("QA Test branch ${testBranch}....")
+  try {
+     scriptEnv.println("QA Testing execution Starting....")
+     scriptEnv.println("Environment is ${environment}....")
+     scriptEnv.println("AppType is ${appType}....")
+     scriptEnv.println("QA Test branch ${testBranch}....")
+    } catch (err){
+      scriptEnv.println("QA Test error....")
+      throw err
+  }
 
-
-  
-} catch (err){
-    scriptEnv.println("QA Test error....")
-    throw err
-}
-
+ }
 }
