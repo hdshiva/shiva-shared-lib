@@ -1,0 +1,9 @@
+This is simple sharedlib demo can be used in pipeline as below:
+
+import org.opower.*
+@Library('jenkins-pipeline-shared-lib-sample')_
+
+stage('Demo') {
+    echo 'testing demo'
+    clientHello 'demoClient'
+}
